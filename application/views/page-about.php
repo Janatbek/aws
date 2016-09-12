@@ -162,11 +162,7 @@
 												<ul class="nav navbar-nav ">
 													<li class="active"><a href="/">Home</a></li>
 													<li><a href="/welcome/service">Services</a></li>
-													<li><a href="/welcome/treatment">Conditions we treat</a></li>
-													<li><a href="/welcome/insurance">Insurance coverage</a></li>
-													<li><a href="/welcome/team">Our team</a></li>
-													<li><a href="/welcome/choose">Why choose us</a></li>
-													<li><a href="/welcome/faq">FAQ</a></li>
+													<li><a href="/welcome/about_us">About Us</a></li>
 												</ul>
 												<!-- main-menu end -->
 												
