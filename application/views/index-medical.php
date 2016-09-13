@@ -65,57 +65,6 @@
 		
 		<!-- header-container start -->
 		<div class="header-container full-width">
-
-			<!-- header-top start -->
-			<!-- classes:  -->
-			<!-- "dark": dark version of header top e.g. class="header-top dark" -->
-			<!-- "colored": colored version of header top e.g. class="header-top colored" -->
-			<!-- ================ -->
-			<div class="header-top  colored full-width">
-				<div class="container">
-					<div class="row">
-						<div class="col-xs-2 col-sm-5">
-							<!-- header-top-first start -->
-							<!-- ================ -->
-							<div class="header-top-first clearfix">
-								<ul class="social-links circle small clearfix hidden-xs">
-									<li class="twitter"><a target="_blank" href="http://www.twitter.com"><i class="fa fa-twitter"></i></a></li>
-									<li class="linkedin"><a target="_blank" href="http://www.linkedin.com"><i class="fa fa-linkedin"></i></a></li>
-									<li class="googleplus"><a target="_blank" href="http://plus.google.com"><i class="fa fa-google-plus"></i></a></li>
-									<li class="youtube"><a target="_blank" href="http://www.youtube.com"><i class="fa fa-youtube-play"></i></a></li>
-									<li class="facebook"><a target="_blank" href="http://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
-								</ul>
-								<div class="social-links hidden-lg hidden-md hidden-sm circle small">
-									<div class="btn-group dropdown">
-										<button type="button" class="btn dropdown-toggle" data-toggle="dropdown"><i class="fa fa-share-alt"></i></button>
-										<ul class="dropdown-menu dropdown-animation">
-											<li class="twitter"><a target="_blank" href="http://www.twitter.com"><i class="fa fa-twitter"></i></a></li>
-											<li class="linkedin"><a target="_blank" href="http://www.linkedin.com"><i class="fa fa-linkedin"></i></a></li>
-											<li class="googleplus"><a target="_blank" href="http://plus.google.com"><i class="fa fa-google-plus"></i></a></li>
-											<li class="youtube"><a target="_blank" href="http://www.youtube.com"><i class="fa fa-youtube-play"></i></a></li>												<li class="facebook"><a target="_blank" href="http://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
-
-										</ul>
-									</div>
-								</div>
-							</div>
-							<!-- header-top-first end -->
-						</div>
-						<div class="col-xs-10 col-sm-7">
-							<!-- header-top-second start -->
-							<!-- ================ -->
-							<div id="header-top-second"  class="clearfix text-right">
-								<ul class="list-inline">
-									<li><i class="fa fa-phone pr-5 pl-10"></i> +1 301 990 1449</li>
-									<li><i class="fa fa-envelope-o pr-5 pl-10"></i>nfo@ptpro.comcastbiz.net </li>
-								</ul>
-							</div>
-							<!-- header-top-second end -->
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- header-top end -->
-
 			<!-- header start -->
 			<!-- classes:  -->
 			<!-- "fixed": enables fixed navigation mode (sticky menu) e.g. class="header fixed clearfix" -->
@@ -123,16 +72,20 @@
 			<!-- "full-width": mandatory class for the full-width menu layout -->
 			<!-- "centered": mandatory class for the centered logo layout -->
 			<!-- ================ --> 
-			<header class="header full-width fixed clearfix">
+			<header class="header full-width fixed clearfix" id="header">
 
 				<div class="container">
 					<div class="row">
-						<div class="col-md-1">
-							<!-- header-left start -->
-							<!-- ================ -->
-							<!-- header-left end -->
+						<div class="col-md-2">
+							<div class="header-left clearfix">
+
+								<!-- logo -->
+								<div id="logo" class="logo">
+									<a href="index.html"><img id="logo_img" src="../../assets/imagesfrom/logo-y1.png" alt="The Project"></a>
+								</div>
+							</div>
 						</div>
-						<div class="col-md-12">
+						<div class="col-md-10">
 
 							<!-- header-right start -->
 							<!-- ================ -->
@@ -140,17 +93,7 @@
 
 								<!-- main-navigation start -->
 								<!-- ================ -->
-								<div class="col-md-3 ">
-									<!-- header-left start -->
-									<!-- ================ -->
-									<div class="header-left clearfix">
-
-										<!-- logo -->
-										<div id="logo" class="logo">
-											<a href="index.html"><img id="logo_img" src="../../assets/imagesfrom/logo-y1.png" alt="The Project"></a>
-										</div>
-									</div>
-									<!-- header-left end -->
+								<div class="col-md-6">
 
 								</div>
 								<div class="main-navigation  animated with-dropdown-buttons">
@@ -177,9 +120,11 @@
 													<li class="active"><a href="/">Home</a></li>
 													<li><a href="/welcome/service">Services</a></li>
 													<li><a href="/welcome/about_us">About Us</a></li>
+													<li><a href="/welcome/insurance">Insurance Coverage</a></li>
+													<li><a href="/welcome/faq">F.A.Q</a></li>
 												</ul>
 												<!-- main-menu end -->
-												
+
 												<!-- header buttons -->
 												<div class="header-dropdown-buttons">
 													<a href="#" class="btn btn-sm hidden-xs btn-default">Apointment <i class="fa fa-hospital-o pl-5"></i></a>
@@ -198,11 +143,12 @@
 						</div>
 					</div>
 				</div>
+
 			</header>
 			<!-- header end -->
 		</div>
 		<!-- header-container end -->
-		
+
 		<!-- banner start -->
 		<!-- ================ -->
 		<div class="banner clearfix">
@@ -219,10 +165,10 @@
 							<!-- slide 1 start -->
 							<!-- ================ -->
 							<li data-transition="random" data-slotamount="7" data-masterspeed="500" data-saveperformance="on" data-title="The gym">
-								
+
 								<!-- main image -->
 								<img src="../../assets/imagesfrom/zal.jpg" alt="slidebg1" data-bgposition="center top"  data-bgrepeat="no-repeat" data-bgfit="cover">
-								
+
 								<!-- Transparent Background -->
 								<div class="tp-caption"
 								data-x="center"
@@ -478,8 +424,8 @@ data-endspeed="600"><a href="#" class="btn btn-dark btn-default btn-animated">Le
 			<div class="col-md-12">
 				<div class="call-to-action text-center">
 					<div class="row">
-						<img src="../../assets/imagesfrom/logo-y1.png" class="col-sm-3 logo">
-						<div class="col-sm-9">
+						<!-- <img src="../../assets/imagesfrom/logo-y1.png" class="col-sm-3 logo"> -->
+						<div class="col-sm-12">
 							<h1 class="title"><i class="fa fa-user-md pr-10"></i>Physical Therapy Professional Center, Inc</h1>
 							<em>Experience the Magic of Rehabilitation</em>	
 						</div>
@@ -489,62 +435,15 @@ data-endspeed="600"><a href="#" class="btn btn-dark btn-default btn-animated">Le
 		</div>
 	</div>
 </section>
-<!-- section start -->
+<!-- LATEST NEWS section start -->
 <!-- ================ -->
 <section class="section clearfix">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-5">
-				<h3>Latest <span class="text-default">News</span></h3>
-				<div class="separator-2"></div>
-				<div class="block">
-					<div class="media margin-clear">
-						<div class="media-left">
-							<div class="overlay-container">
-								<img class="media-object" src="../../assets/images/medical-blog-thumb-1.jpg" alt="blog-thumb">
-								<a href="blog-post.html" class="overlay-link small"><i class="fa fa-link"></i></a>
-							</div>
-						</div>
-						<div class="media-body">
-							<h5 class="media-heading"><a href="blog-post.html">Lorem ipsum dolor sit amet</a></h5>
-							<p class="small"><i class="fa fa-calendar pr-10"></i>Mar 23, 2015</p>
-							<p class="margin-clear small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt corrupti, cum exercitationem.</p>
-							<a href="#">Read More<i class="fa fa-long-arrow-right pl-5"></i></a>
-						</div>
-						<hr>
-					</div>
-					<div class="media margin-clear">
-						<div class="media-left">
-							<div class="overlay-container">
-								<img class="media-object" src="../../assets/images/medical-blog-thumb-2.jpg" alt="blog-thumb">
-								<a href="blog-post.html" class="overlay-link small"><i class="fa fa-link"></i></a>
-							</div>
-						</div>
-						<div class="media-body">
-							<h5 class="media-heading"><a href="blog-post.html">Perspiciatis laborum necess</a></h5>
-							<p class="small"><i class="fa fa-calendar pr-10"></i>Mar 22, 2015</p>
-							<p class="margin-clear small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt corrupti, cum exercitationem.</p>
-							<a href="#">Read More<i class="fa fa-long-arrow-right pl-5"></i></a>
-						</div>
-						<hr>
-					</div>
-					<div class="media margin-clear">
-						<div class="media-left">
-							<div class="overlay-container">
-								<img class="media-object" src="../../assets/images/medical-blog-thumb-3.jpg" alt="blog-thumb">
-								<a href="blog-post.html" class="overlay-link small"><i class="fa fa-link"></i></a>
-							</div>
-						</div>
-						<div class="media-body">
-							<h5 class="media-heading"><a href="blog-post.html">Cum eligendi nisi rerum porro</a></h5>
-							<p class="small"><i class="fa fa-calendar pr-10"></i>Mar 21, 2015</p>
-							<p class="margin-clear small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt corrupti, cum exercitationem.</p>
-							<a href="#">Read More<i class="fa fa-long-arrow-right pl-5"></i></a>
-						</div>
-					</div>
-				</div>
+			<div class="col-md-2">
+
 			</div>
-			<div class="col-md-4">
+			<div class="col-md-8">
 				<h3>Our <span class="text-default">Services</span></h3>
 				<div class="separator-2"></div>
 				<!-- accordion start -->
@@ -681,89 +580,14 @@ data-endspeed="600"><a href="#" class="btn btn-dark btn-default btn-animated">Le
 				</div>
 				<!-- accordion end -->
 			</div>
-			<div class="col-md-3">
-				<h3>Health <span class="text-default">Services</span></h3>
-				<div class="separator-2"></div>
-				<div class="owl-carousel content-slider-with-large-controls-autoplay dark-controls light-gray-bg buttons-hide">							
-					<div class="image-box style-2">
-						<div class="overlay-container overlay-visible">
-							<img src="../../assets/images/medical-service-1.jpg" alt="">
-							<a href="#" class="overlay-link"><i class="fa fa-link"></i></a>
-							<div class="overlay-bottom hidden-xs">
-								<div class="text">
-									<p class="lead margin-clear text-left">Medical Education</p>
-								</div>
-							</div>
-						</div>
-						<div class="body padding-horizontal-clear">
-							<p>Lorem ipsum dolor sit amet, consectetur adipis elit. Aliquam atque ipsam nihil dood truck quinoa.</p>
-							<a class="link-dark" href="page-services.html">Read More<i class="pl-5 fa fa-angle-double-right"></i></a>
-						</div>
-					</div>
-					<div class="image-box style-2">
-						<div class="overlay-container overlay-visible">
-							<img src="../../assets/images/medical-service-2.jpg" alt="">
-							<a href="#" class="overlay-link"><i class="fa fa-link"></i></a>
-							<div class="overlay-bottom hidden-xs">
-								<div class="text">
-									<p class="lead margin-clear text-left">Seminars For Medicals Professionals</p>
-								</div>
-							</div>
-						</div>
-						<div class="body padding-horizontal-clear">
-							<p>Lorem ipsum dolor sit amet, consectetur adipis elit. Aliquam atque ipsam nihil dood truck quinoa.</p>
-							<a class="link-dark" href="page-services.html">Read More<i class="pl-5 fa fa-angle-double-right"></i></a>
-						</div>
-					</div>
-					<div class="image-box style-2">
-						<div class="overlay-container overlay-visible">
-							<img src="../../assets/images/medical-service-3.jpg" alt="">
-							<a href="#" class="overlay-link"><i class="fa fa-link"></i></a>
-							<div class="overlay-bottom hidden-xs">
-								<div class="text">
-									<p class="lead margin-clear text-left">Research &amp; Development</p>
-								</div>
-							</div>
-						</div>
-						<div class="body padding-horizontal-clear">
-							<p>Lorem ipsum dolor sit amet, consectetur adipis elit. Aliquam atque ipsam nihil dood truck quinoa.</p>
-							<a class="link-dark" href="page-services.html">Read More<i class="pl-5 fa fa-angle-double-right"></i></a>
-						</div>
-					</div>
-				</div>
+			<div class="col-md-2">
+
 			</div>
 		</div>
 	</div>
 </section>
 <!-- section end -->
-
-<!-- section start -->
-<!-- ================ -->
-<section class="full-width-section">
-	<div class="full-image-container light-gray-bg">
-		<img class="to-right-block" src="../../assets/images/medical-section-image-1.jpg" alt="">
-		<div class="full-image-overlay text-right">
-			<h3>With Compassionate Care Since 1930</h3>
-			<ul class="list-icons">
-				<li>We are here to support you <i class="icon-check-1"></i></li>
-				<li>Free updates <i class="icon-check-1"></i></li>
-				<li>ipsam asperiores fugiat quo <i class="icon-check-1"></i></li>
-				<li>Animi veniam veritatis sint <i class="icon-check-1"></i></li>
-				<li>Voluptatum officia suscipit <i class="icon-check-1"></i></li>
-				<li>Unlimited options and variations <i class="icon-check-1"></i></li>
-			</ul>
-		</div>
-	</div>
-	<div class="full-text-container light-gray-bg">
-		<h3 class="logo-font"><span class="text-muted">The</span> <span class="text-default">Clinic</span></h3>
-		<div class="separator-2 visible-lg"></div>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi veniam, veritatis sint consequuntur! Natus, culpa, explicabo! Non quo laboriosam nobis quia, amet excepturi optio dolor impedit. Perferendis libero unde, nulla deserunt sequi. Voluptatum, officia suscipit porro reprehenderit vitae quo rem reiciendis, a vero quae. Vero beatae voluptatum.</p>
-		<div class="separator-3 visible-lg"></div>
-	</div>
-</section>
-<!-- section end -->
-
-<!-- section start -->
+<!-- TEAM section start -->
 <!-- ================ -->
 <section class="clearfix">
 	<div class="container pv-20">
@@ -771,155 +595,80 @@ data-endspeed="600"><a href="#" class="btn btn-dark btn-default btn-animated">Le
 			<div class="col-md-8 col-md-offset-2">
 				<h3 class="text-center">Meet Our <span class="text-default">Team</span></h3>
 				<div class="separator"></div>
-				<p class="lead text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo dignissimos, adipisci ipsa aut voluptate consequuntur ad minus rerum reprehenderit fuga quis eum eveniet eligendi, fugit neque laboriosam unde quae incidunt.</p>
 			</div>
 		</div>
 	</div>
-	<div class="row grid-space-0">
-		<div class="col-md-2 col-sm-6 col-md-offset-1">
-			<div class="image-box team-member shadow mb-20">
-				<div class="overlay-container overlay-visible">
-					<img src="../../assets/imagesfrom/natalia.jpg" alt="NATALIA GERACHENKO">
-					<a href="#" class="overlay-link" title="NATALIA GERACHENKO"><i class="icon-link"></i></a>
-					<div class="overlay-bottom">
-						<div class="text">
-							<h3 class="title">NATALIA GERACHENKO</h3>
-							<div class="separator light"></div>
-							<p class="small margin-clear"><em>LPT, MPT, BS, CLT<br> Physical Therapist</em></p>
-						</div>
-					</div>
+	<div class="row grid-space-10">
+		<div class="col-sm-4">
+			<div class="team-member image-box style-2 dark-bg text-center">
+				<img src="../../assets/imagesfrom/natalia.jpg" alt="NATALIA GERACHENKO" width="100%">
+				<div class="body">
+					<h3 class="title">NATALIA GERACHENKO</h3>
+					<small>CEO</small>
+					<div class="separator mt-10"></div>
+					<p class="small margin-clear"><em>LPT, MPT, BS, CLT<br> Physical Therapist</em></p>
+					<div class="separator mt-10"></div>
 				</div>
 			</div>
 		</div>
-		<div class="col-md-2 col-sm-6">
-			<div class="image-box team-member shadow mb-20">
-				<div class="overlay-container overlay-visible">
-					<img src="../../assets/imagesfrom/samantha.jpg" alt="SAMANTHA RICHARDS">
-					<a href="#" class="overlay-link" title="SAMANTHA RICHARDS"><i class="icon-link"></i></a>
-					<div class="overlay-bottom">
-						<div class="text">
-							<h3 class="title">SAMANTHA RICHARDS</h3>
-							<div class="separator light"></div>
-							<p class="small margin-clear"><em> PTA<br> Physical Therapist Assistant</em></p>
-						</div>
-					</div>
+		<div class="col-sm-4">
+			<div class="team-member image-box style-2 dark-bg text-center">
+				<img src="../../assets/imagesfrom/samantha.jpg" alt="SAMANTHA RICHARDS" width="100%">
+				<div class="body">
+					<h3 class="margin-clear">SAMANTHA RICHARDS</h3>
+					<small>CTO</small>
+					<div class="separator mt-10"></div>
+					<p class="small margin-clear"> PTA<br> Physical Therapist Assistant</p>
+					<div class="separator mt-10"></div>
+					
 				</div>
 			</div>
 		</div>
-		<div class="col-md-2 col-sm-6">
-			<div class="image-box team-member shadow mb-20">
-				<div class="overlay-container overlay-visible">
-					<img src="../../assets/imagesfrom/natalia2.jpg" alt="Natalia Imeda">
-					<a href="#" class="overlay-link" title="Natalia Imeda"><i class="icon-link"></i></a>
-					<div class="overlay-bottom">
-						<div class="text">
-							<h3 class="title">Natalia Imeda</h3>
-							<div class="separator light"></div>
-							<p class="small margin-clear"><em>Certified Licensed Massage Therapist</em></p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="col-md-2 col-sm-6">
-			<div class="image-box team-member shadow mb-20">
-				<div class="overlay-container overlay-visible">
-					<img src="../../assets/imagesfrom/mena.jpg" alt="Mena Tanya">
-					<a href="#" class="overlay-link" title="Mena Tanya"><i class="icon-link"></i></a>
-					<div class="overlay-bottom">
-						<div class="text">
-							<h3 class="title">Mena Tanya</h3>
-							<div class="separator light"></div>
-							<p class="small margin-clear"><em>Certified Licensed Massage Therapist</em></p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="col-md-2 col-sm-6">
-			<div class="image-box team-member shadow mb-20">
-				<div class="overlay-container overlay-visible">
-					<img src="../../assets/imagesfrom/olga.jpg" alt="">
-					<a href="#" class="overlay-link" title="Olga Goncharuk"><i class="icon-link"></i></a>
-					<div class="overlay-bottom">
-						<div class="text">
-							<h3 class="title">Olga Goncharuk</h3>
-							<div class="separator light"></div>
-							<p class="small margin-clear"><em>Certified Licensed Massage Therapist</em></p>
-						</div>
-					</div>
+		<div class="col-sm-4">
+			<div class="team-member image-box style-2 dark-bg text-center">
+				<img src="../../assets/imagesfrom/natalia2.jpg" alt="Natalia Imeda" width="100%">
+				<div class="body">
+					<h3 class="margin-clear"> NATALIA IMEDA</h3>
+					<small>Project Manager</small>
+					<div class="separator mt-10"></div>
+					<p class="small margin-clear"><br>Certified Licensed Massage Therapist</p>
+					<div class="separator mt-10"></div>
 				</div>
 			</div>
 		</div>
 	</div>
-	<div class="owl-carousel space-bottom content-slider">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2">
-					<div class="testimonial text-center">
-						<div class="testimonial-image">
-							<img src="../../assets/images/testimonial-1.jpg" alt="Jane Doe" title="Jane Doe" class="img-circle">
-						</div>
-						<h3>Thank You!</h3>
-						<div class="separator"></div>
-						<div class="testimonial-body">
-							<blockquote>
-								<p>Sed ut perspiciatis unde omnis iste natu error sit voluptatem accusan tium dolore laud antium, totam rem dolor sit amet tristique pulvinar, turpis arcu rutrum nunc, ac laoreet turpis augue a justo.</p>
-							</blockquote>
-							<div class="testimonial-info-1">- Jane Doe</div>
-							<div class="testimonial-info-2">By Company</div>
-						</div>
-					</div>
+	<hr>
+	<div class="row grid-space-10">
+		<div class="col-sm-2"></div>
+
+		<div class="col-sm-4">
+			<div class="team-member image-box style-2 dark-bg text-center">
+				<img src="../../assets/imagesfrom/mena.jpg"width="100%">
+				<div class="body">
+					<h3 class="title">MENA TANYA</h3>
+					<small></small>
+					<div class="separator mt-10"></div>
+					<p class="small margin-clear"><br>Certified Licensed Massage Therapist</p>
+					<div class="separator mt-10"></div>
 				</div>
 			</div>
 		</div>
-		<div class="container">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2">
-					<div class="testimonial text-center">
-						<div class="testimonial-image">
-							<img src="../../assets/images/testimonial-2.jpg" alt="Jane Doe" title="Jane Doe" class="img-circle">
-						</div>
-						<h3>I'm so Happy!</h3>
-						<div class="separator"></div>
-						<div class="testimonial-body">
-							<blockquote>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et cupiditate deleniti ratione in. Expedita nemo, quisquam, fuga adipisci omnis ad mollitia libero culpa nostrum est quia eos esse vel!</p>
-							</blockquote>
-							<div class="testimonial-info-1">- Jane Doe</div>
-							<div class="testimonial-info-2">By Company</div>
-						</div>
-					</div>
+		<div class="col-sm-4">
+			<div class="team-member image-box style-2 dark-bg text-center">
+				<img src="../../assets/imagesfrom/olga.jpg" alt="olga" width="100%" id="olga">
+				<div class="body">
+					<h3 class="title">OLGA GONCHARUK</h3>
+					<small></small>
+					<div class="separator mt-10"></div>
+					<p class="small margin-clear"><br>Certified Licensed Massage Therapist</p>
+					<div class="separator mt-10"></div>
 				</div>
 			</div>
 		</div>
+		<div class="col-sm-2"></div>
 	</div>
 </section>
-<!-- section end -->
-
-<!-- footer top start -->
-<!-- ================ -->
-<div class="dark-bg  default-hovered footer-top animated-text">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12">
-				<div class="call-to-action text-center">
-					<div class="row">
-						<div class="col-sm-8">
-							<h2>Powerful Bootstrap Template</h2>
-							<h2>Waste no more time</h2>
-						</div>
-						<div class="col-sm-4">
-							<p class="mt-10"><a href="#" class="btn btn-animated btn-lg btn-gray-transparent ">Purchase<i class="fa fa-cart-arrow-down pl-20"></i></a></p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-<!-- footer top end -->
-
+<!-- TEAM section end -->
 <!-- footer start (Add "dark" class to #footer in order to enable dark footer) -->
 <!-- ================ -->
 <footer id="footer" class="clearfix ">
@@ -932,84 +681,124 @@ data-endspeed="600"><a href="#" class="btn btn-dark btn-default btn-animated">Le
 				<div class="row">
 					<div class="col-md-8">
 						<div class="footer-content">
-							<div class="logo-footer"><img id="logo-footer" src="../../assets/images/logo_dark_cyan.png" alt=""></div>
+							<!-- <div class="logo-footer"><img id="logo-footer" src="../../assets/imagesfrom/logo-y1.png" alt=""></div> -->
 							<div class="row">
 								<div class="col-md-6">
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus illo vel dolorum soluta consectetur doloribus sit. Delectus non tenetur odit dicta vitae debitis suscipit doloribus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed dolore fugit vitae quia dicta inventore reiciendis. Ipsa, aut voluptas quaerat.</p>
-									<ul class="social-links circle animated-effect-1">
-										<li class="facebook"><a target="_blank" href="http://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
-										<li class="twitter"><a target="_blank" href="http://www.twitter.com"><i class="fa fa-twitter"></i></a></li>
-										<li class="googleplus"><a target="_blank" href="http://plus.google.com"><i class="fa fa-google-plus"></i></a></li>
-										<li class="linkedin"><a target="_blank" href="http://www.linkedin.com"><i class="fa fa-linkedin"></i></a></li>
-										<li class="xing"><a target="_blank" href="http://www.xing.com"><i class="fa fa-xing"></i></a></li>
-										<li class="skype"><a target="_blank" href="http://www.skype.com"><i class="fa fa-skype"></i></a></li>
-										<li class="youtube"><a target="_blank" href="https://www.youtube.com"><i class="fa fa-youtube"></i></a></li>
-									</ul>
+									<h3>OUR ADDRESS</h3>
 									<ul class="list-icons">
-										<li><i class="fa fa-map-marker pr-10 text-default"></i> One infinity loop, 54100</li>
-										<li><i class="fa fa-phone pr-10 text-default"></i> +00 1234567890</li>
-										<li><a href="mailto:info@theproject.com"><i class="fa fa-envelope-o pr-10"></i>info@theproject.com</a></li>
+										<li><i class="fa fa-map-marker pr-10 text-default"></i>17B Firstfield Rd., Ste. 105 <br>
+											Gaithersburg, MD 20878</li>
+											<li><i class="fa fa-phone pr-10 text-default"></i>+1 301 990 1449</li>
+											<li><a href="mailto:info@theproject.com"><i class="fa fa-envelope-o pr-10"></i>nfo@ptpro.comcastbiz.net</a></li>
+										</ul>
+									</div>
+									<div class="col-md-6">
+										<div id="map-canvas"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="footer-content">
+								<h2 class="title">Contact Us</h2>
+								<br>
+								<div class="alert alert-success hidden" id="MessageSent2">
+									We have received your message, we will contact you very soon.
+								</div>
+								<div class="alert alert-danger hidden" id="MessageNotSent2">
+									Oops! Something went wrong please refresh the page and try again.
+								</div>
+								<form role="form" id="footer-form" class="margin-clear">
+									<div class="form-group has-feedback">
+										<label class="sr-only" for="name2">Name</label>
+										<input type="text" class="form-control" id="name2" placeholder="Name" name="name2">
+										<i class="fa fa-user form-control-feedback"></i>
+									</div>
+									<div class="form-group has-feedback">
+										<label class="sr-only" for="email2">Email address</label>
+										<input type="email" class="form-control" id="email2" placeholder="Enter email" name="email2">
+										<i class="fa fa-envelope form-control-feedback"></i>
+									</div>
+									<div class="form-group has-feedback">
+										<label class="sr-only" for="message2">Message</label>
+										<textarea class="form-control" rows="6" id="message2" placeholder="Message" name="message2"></textarea>
+										<i class="fa fa-pencil form-control-feedback"></i>
+									</div>
+									<input type="submit" value="Send" class="margin-clear submit-button btn btn-default">
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- .footer end -->
+		<!-- footer middle start-->
+		<!-- classes:  -->
+		<!-- "dark": dark version of header top e.g. class="header-top dark" -->
+		<!-- "colored": colored version of header top e.g. class="header-top colored" -->
+		<!-- ================ -->
+		<div class="header-top  colored full-width">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-2 col-sm-5">
+						<!-- header-top-first start -->
+						<!-- ================ -->
+						<div class="header-top-first clearfix">
+							<ul class="social-links circle small clearfix hidden-xs">
+								<li class="twitter"><a target="_blank" href="http://www.twitter.com"><i class="fa fa-twitter"></i></a></li>
+								<li class="linkedin"><a target="_blank" href="http://www.linkedin.com"><i class="fa fa-linkedin"></i></a></li>
+								<li class="googleplus"><a target="_blank" href="http://plus.google.com"><i class="fa fa-google-plus"></i></a></li>
+								<li class="youtube"><a target="_blank" href="http://www.youtube.com"><i class="fa fa-youtube-play"></i></a></li>
+								<li class="facebook"><a target="_blank" href="http://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
+							</ul>
+							<div class="social-links hidden-lg hidden-md hidden-sm circle small">
+								<div class="btn-group dropdown">
+									<button type="button" class="btn dropdown-toggle" data-toggle="dropdown"><i class="fa fa-share-alt"></i></button>
+									<ul class="dropdown-menu dropdown-animation">
+										<li class="twitter"><a target="_blank" href="http://www.twitter.com"><i class="fa fa-twitter"></i></a></li>
+										<li class="linkedin"><a target="_blank" href="http://www.linkedin.com"><i class="fa fa-linkedin"></i></a></li>
+										<li class="googleplus"><a target="_blank" href="http://plus.google.com"><i class="fa fa-google-plus"></i></a></li>
+										<li class="youtube"><a target="_blank" href="http://www.youtube.com"><i class="fa fa-youtube-play"></i></a></li>												<li class="facebook"><a target="_blank" href="http://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
+
 									</ul>
 								</div>
-								<div class="col-md-6">
-									<div id="map-canvas"></div>
-								</div>
 							</div>
 						</div>
+						<!-- header-top-first end -->
 					</div>
-					<div class="col-md-4">
-						<div class="footer-content">
-							<h2 class="title">Contact Us</h2>
-							<br>
-							<div class="alert alert-success hidden" id="MessageSent2">
-								We have received your message, we will contact you very soon.
-							</div>
-							<div class="alert alert-danger hidden" id="MessageNotSent2">
-								Oops! Something went wrong please refresh the page and try again.
-							</div>
-							<form role="form" id="footer-form" class="margin-clear">
-								<div class="form-group has-feedback">
-									<label class="sr-only" for="name2">Name</label>
-									<input type="text" class="form-control" id="name2" placeholder="Name" name="name2">
-									<i class="fa fa-user form-control-feedback"></i>
-								</div>
-								<div class="form-group has-feedback">
-									<label class="sr-only" for="email2">Email address</label>
-									<input type="email" class="form-control" id="email2" placeholder="Enter email" name="email2">
-									<i class="fa fa-envelope form-control-feedback"></i>
-								</div>
-								<div class="form-group has-feedback">
-									<label class="sr-only" for="message2">Message</label>
-									<textarea class="form-control" rows="6" id="message2" placeholder="Message" name="message2"></textarea>
-									<i class="fa fa-pencil form-control-feedback"></i>
-								</div>
-								<input type="submit" value="Send" class="margin-clear submit-button btn btn-default">
-							</form>
+					<div class="col-xs-10 col-sm-7">
+						<!-- header-top-second start -->
+						<!-- ================ -->
+						<div id="header-top-second"  class="clearfix text-right">
+							<ul class="list-inline">
+								<li><i class="fa fa-phone pr-5 pl-10"></i> +1 301 990 1449</li>
+								<li><i class="fa fa-envelope-o pr-5 pl-10"></i>nfo@ptpro.comcastbiz.net </li>
+							</ul>
+						</div>
+						<!-- header-top-second end -->
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- header-top end -->
+
+		<!-- .subfooter start -->
+		<!-- ================ -->
+		<div class="subfooter">
+			<div class="container">
+				<div class="subfooter-inner">
+					<div class="row">
+						<div class="col-md-12">
+							<p class="text-center">Copyright © 2016 The Project by <a target="_blank" href="http://htmlcoder.me">Janatbek Sharsheyev</a>. All Rights Reserved</p>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-	<!-- .footer end -->
-
-	<!-- .subfooter start -->
-	<!-- ================ -->
-	<div class="subfooter">
-		<div class="container">
-			<div class="subfooter-inner">
-				<div class="row">
-					<div class="col-md-12">
-						<p class="text-center">Copyright © 2016 The Project by <a target="_blank" href="http://htmlcoder.me">Janatbek Sharsheyev</a>. All Rights Reserved</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- .subfooter end -->
-
-</footer>
-<!-- footer end -->		
+		<!-- .subfooter end -->
+	</footer>
+	<!-- footer end -->		
 </div>
 <!-- page-wrapper end -->
 

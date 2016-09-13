@@ -9,15 +9,15 @@ class Welcome extends CI_Controller {
 	}
 	public function service()
 	{
-		$this->load->view('page-services-3');
+		$this->load->view('services');
 	}
 	public function about_us()
 	{
-		$this->load->view('page-about');
+		$this->load->view('about_us');
 	}
 	public function insurance()
 	{
-		$this->load->view('page-about-4');
+		$this->load->view('insurance');
 	}
 	public function team()
 	{
@@ -29,7 +29,7 @@ class Welcome extends CI_Controller {
 	}
 	public function faq()
 	{
-		$this->load->view('page-faq');
+		$this->load->view('faq');
 	}
 	public function appointment()
 	{

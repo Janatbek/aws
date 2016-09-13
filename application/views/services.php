@@ -65,57 +65,6 @@
 		
 		<!-- header-container start -->
 		<div class="header-container full-width">
-
-			<!-- header-top start -->
-			<!-- classes:  -->
-			<!-- "dark": dark version of header top e.g. class="header-top dark" -->
-			<!-- "colored": colored version of header top e.g. class="header-top colored" -->
-			<!-- ================ -->
-			<div class="header-top  colored full-width">
-				<div class="container">
-					<div class="row">
-						<div class="col-xs-2 col-sm-5">
-							<!-- header-top-first start -->
-							<!-- ================ -->
-							<div class="header-top-first clearfix">
-								<ul class="social-links circle small clearfix hidden-xs">
-									<li class="twitter"><a target="_blank" href="http://www.twitter.com"><i class="fa fa-twitter"></i></a></li>
-									<li class="linkedin"><a target="_blank" href="http://www.linkedin.com"><i class="fa fa-linkedin"></i></a></li>
-									<li class="googleplus"><a target="_blank" href="http://plus.google.com"><i class="fa fa-google-plus"></i></a></li>
-									<li class="youtube"><a target="_blank" href="http://www.youtube.com"><i class="fa fa-youtube-play"></i></a></li>
-									<li class="facebook"><a target="_blank" href="http://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
-								</ul>
-								<div class="social-links hidden-lg hidden-md hidden-sm circle small">
-									<div class="btn-group dropdown">
-										<button type="button" class="btn dropdown-toggle" data-toggle="dropdown"><i class="fa fa-share-alt"></i></button>
-										<ul class="dropdown-menu dropdown-animation">
-											<li class="twitter"><a target="_blank" href="http://www.twitter.com"><i class="fa fa-twitter"></i></a></li>
-											<li class="linkedin"><a target="_blank" href="http://www.linkedin.com"><i class="fa fa-linkedin"></i></a></li>
-											<li class="googleplus"><a target="_blank" href="http://plus.google.com"><i class="fa fa-google-plus"></i></a></li>
-											<li class="youtube"><a target="_blank" href="http://www.youtube.com"><i class="fa fa-youtube-play"></i></a></li>												<li class="facebook"><a target="_blank" href="http://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
-
-										</ul>
-									</div>
-								</div>
-							</div>
-							<!-- header-top-first end -->
-						</div>
-						<div class="col-xs-10 col-sm-7">
-							<!-- header-top-second start -->
-							<!-- ================ -->
-							<div id="header-top-second"  class="clearfix text-right">
-								<ul class="list-inline">
-									<li><i class="fa fa-phone pr-5 pl-10"></i> +1 301 990 1449</li>
-									<li><i class="fa fa-envelope-o pr-5 pl-10"></i>nfo@ptpro.comcastbiz.net </li>
-								</ul>
-							</div>
-							<!-- header-top-second end -->
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- header-top end -->
-
 			<!-- header start -->
 			<!-- classes:  -->
 			<!-- "fixed": enables fixed navigation mode (sticky menu) e.g. class="header fixed clearfix" -->
@@ -123,16 +72,20 @@
 			<!-- "full-width": mandatory class for the full-width menu layout -->
 			<!-- "centered": mandatory class for the centered logo layout -->
 			<!-- ================ --> 
-			<header class="header full-width fixed clearfix">
+			<header class="header full-width fixed clearfix" id="header">
 
 				<div class="container">
 					<div class="row">
-						<div class="col-md-1">
-							<!-- header-left start -->
-							<!-- ================ -->
-							<!-- header-left end -->
+						<div class="col-md-2">
+							<div class="header-left clearfix">
+
+								<!-- logo -->
+								<div id="logo" class="logo">
+									<a href="index.html"><img id="logo_img" src="../../assets/imagesfrom/logo-y1.png" alt="The Project"></a>
+								</div>
+							</div>
 						</div>
-						<div class="col-md-12">
+						<div class="col-md-10">
 
 							<!-- header-right start -->
 							<!-- ================ -->
@@ -140,6 +93,9 @@
 
 								<!-- main-navigation start -->
 								<!-- ================ -->
+								<div class="col-md-6">
+
+								</div>
 								<div class="main-navigation  animated with-dropdown-buttons">
 
 									<!-- navbar start -->
@@ -163,12 +119,12 @@
 												<ul class="nav navbar-nav ">
 													<li class="active"><a href="/">Home</a></li>
 													<li><a href="/welcome/service">Services</a></li>
-													<li><a href="/welcome/treatment">Conditions we treat</a></li>
-													<li><a href="/welcome/insurance">Insurance coverage</a></li>
-													<li><a href="/welcome/team">About Us</a></li>
+													<li><a href="/welcome/about_us">About Us</a></li>
+													<li><a href="/welcome/insurance">Insurance Coverage</a></li>
+													<li><a href="/welcome/insurance">F.A.Q</a></li>
 												</ul>
 												<!-- main-menu end -->
-												
+
 												<!-- header buttons -->
 												<div class="header-dropdown-buttons">
 													<a href="#" class="btn btn-sm hidden-xs btn-default">Apointment <i class="fa fa-hospital-o pl-5"></i></a>
@@ -187,88 +143,64 @@
 						</div>
 					</div>
 				</div>
+
 			</header>
 			<!-- header end -->
 		</div>
 		<!-- header-container end -->
-		
-		<!-- banner start -->
+
+
+		<!-- main-container start -->
 		<!-- ================ -->
-		<!-- <div class="banner video-background-banner pv-40 dark-translucent-bg hovered"> -->
-		<!-- breadcrumb start -->
-		<!-- ================ -->
-				<!-- <div class="breadcrumb-container">
-					<div class="container">
-						<ol class="breadcrumb">
-							<li><i class="fa fa-home pr-10"></i><a class="link-dark" href="index.html">Home</a></li>
-							<li class="active">Page Services 3</li>
-						</ol>
-					</div>
-				</div> -->
-				<!-- breadcrumb end -->
-				<!-- <div class="container">
-					<div class="row">
-						<div class="col-md-8 text-center col-md-offset-2 pv-20">
-							<h2 class="title object-non-visible" data-animation-effect="fadeIn" data-effect-delay="100">We Provide You The Best Solutions</h2>
-							<div class="separator object-non-visible mt-10" data-animation-effect="fadeIn" data-effect-delay="100"></div>
-							<p class="text-center object-non-visible" data-animation-effect="fadeIn" data-effect-delay="100">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi perferendis magnam ea necessitatibus, officiis voluptas odit! Aperiam omnis, cupiditate laudantium velit nostrum, exercitationem accusamus, possimus soluta illo deserunt tempora qui.</p>
-						</div>
-					</div>
-				</div> -->
-				<!-- </div> -->
-				<!-- banner end -->
+		<section class="main-container border-clear light-gray-bg padding-bottom-clear">
 
-				<!-- main-container start -->
-				<!-- ================ -->
-				<section class="main-container border-clear light-gray-bg padding-bottom-clear">
+			<div class="container">
+				<div class="row">
 
-					<div class="container">
-						<div class="row">
+					<!-- main start -->
+					<!-- ================ -->
+					<div class="main col-md-12">
 
-							<!-- main start -->
-							<!-- ================ -->
-							<div class="main col-md-12">
+						<!-- page-title start -->
+						<!-- ================ -->
+						<h4 class="page-title text-center">The coverage for the listed services below depends on your individual insurance plan, although most are covered
+						</h4>
+						<!-- page-title end -->
 
-								<!-- page-title start -->
-								<!-- ================ -->
-								<h4 class="page-title text-center">The coverage for the listed services below depends on your individual insurance plan, although most are covered
-								</h4>
-								<!-- page-title end -->
-
-								<div class="image-box space-top style-4">
-									<div class="row grid-space-0">
-										<div class="col-md-6">
-											<div class="owl-carousel content-slider-with-controls">
-												<div class="overlay-container overlay-visible">
-													<img src="../../assets/imagesfrom/_K4A6939.jpg" alt="">
-													<div class="overlay-bottom hidden-xs">
-														<div class="text">
-															<h3 class="title">We Can Do It</h3>
-														</div>
-													</div>
-													<a href="../../assets/imagesfrom/_K4A6939.jpg" class="popup-img overlay-link" title="image title"><i class="icon-plus-1"></i></a>
-												</div>
-												<div class="overlay-container overlay-visible">
-													<img src="../../assets/imagesfrom/_K4A6935.jpg" alt="">
-													<div class="overlay-bottom hidden-xs">
-														<div class="text">
-															<h3 class="title">You Can Trust Us</h3>
-														</div>
-													</div>
-													<a href="../../assets/imagesfrom/_K4A6935.jpg" class="popup-img overlay-link" title="image title"><i class="icon-plus-1"></i></a>
-												</div>
-												<div class="overlay-container overlay-visible">
-													<img src="../../assets/imagesfrom/_K4A6936.jpg" alt="">
-													<div class="overlay-bottom hidden-xs">
-														<div class="text">
-															<h3 class="title">We Love What We Do</h3>
-														</div>
-													</div>
-													<a href="../../assets/imagesfrom/_K4A6937.jpg" class="popup-img overlay-link" title="image title"><i class="icon-plus-1"></i></a>
+						<div class="image-box space-top style-4">
+							<div class="row grid-space-0">
+								<div class="col-md-6">
+									<div class="owl-carousel content-slider-with-controls">
+										<div class="overlay-container overlay-visible">
+											<img src="../../assets/imagesfrom/_K4A6939.jpg" alt="">
+											<div class="overlay-bottom hidden-xs">
+												<div class="text">
+													<h3 class="title">We Can Do It</h3>
 												</div>
 											</div>
+											<a href="../../assets/imagesfrom/_K4A6939.jpg" class="popup-img overlay-link" title="image title"><i class="icon-plus-1"></i></a>
 										</div>
-										<!-- putting something -->
+										<div class="overlay-container overlay-visible">
+											<img src="../../assets/imagesfrom/_K4A6935.jpg" alt="">
+											<div class="overlay-bottom hidden-xs">
+												<div class="text">
+													<h3 class="title">You Can Trust Us</h3>
+												</div>
+											</div>
+											<a href="../../assets/imagesfrom/_K4A6935.jpg" class="popup-img overlay-link" title="image title"><i class="icon-plus-1"></i></a>
+										</div>
+										<div class="overlay-container overlay-visible">
+											<img src="../../assets/imagesfrom/_K4A6936.jpg" alt="">
+											<div class="overlay-bottom hidden-xs">
+												<div class="text">
+													<h3 class="title">We Love What We Do</h3>
+												</div>
+											</div>
+											<a href="../../assets/imagesfrom/_K4A6937.jpg" class="popup-img overlay-link" title="image title"><i class="icon-plus-1"></i></a>
+										</div>
+									</div>
+								</div>
+								<!-- putting something -->
 										<!-- <div class="col-md-6">
 											<div class="overlay-container">
 												<img src="../../assets/imagesfrom/_K4A7440.jpg" alt="">
