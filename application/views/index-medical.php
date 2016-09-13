@@ -81,7 +81,7 @@
 
 								<!-- logo -->
 								<div id="logo" class="logo">
-									<a href="index.html"><img id="logo_img" src="../../assets/imagesfrom/logo-y1.png" alt="The Project"></a>
+									<a href="/welcome/index"><img id="logo_img" src="../../assets/imagesfrom/logo-y1.png" alt="The Project"></a>
 								</div>
 							</div>
 						</div>
@@ -552,7 +552,7 @@ data-endspeed="600"><a href="#" class="btn btn-dark btn-default btn-animated">Le
 								</a>
 							</h4>
 						</div>
-						<div id="collapseSix-2" class="panel-collapse collapse">
+						<div id="collapseSeven-2" class="panel-collapse collapse">
 							<div class="panel-body bordered p-15">
 								<img src="../../assets/imagesfrom/_K4A7438.jpg" alt="">
 								<hr>
@@ -569,7 +569,7 @@ data-endspeed="600"><a href="#" class="btn btn-dark btn-default btn-animated">Le
 								</a>
 							</h4>
 						</div>
-						<div id="collapseSix-2" class="panel-collapse collapse">
+						<div id="collapseEight-2" class="panel-collapse collapse">
 							<div class="panel-body bordered p-15">
 								<img src="../../assets/imagesfrom/_K4A7438.jpg" alt="">
 								<hr>

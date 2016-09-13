@@ -81,7 +81,7 @@
 
 								<!-- logo -->
 								<div id="logo" class="logo">
-									<a href="index.html"><img id="logo_img" src="../../assets/imagesfrom/logo-y1.png" alt="The Project"></a>
+									<a href="/welcome/index"><img id="logo_img" src="../../assets/imagesfrom/logo-y1.png" alt="The Project"></a>
 								</div>
 							</div>
 						</div>
@@ -266,7 +266,7 @@
 									<div class="row grid-space-0">
 										<div class="col-md-6 col-md-push-6">
 											<div class="overlay-container">
-												<img src="../../assets/images/service-4.jpg" alt="">
+												<img src="../../assets/imagesfrom/_K4A7791.jpg" alt="">
 												<div class="overlay-to-top">
 													<p class="small margin-clear"><em>Treatment Modalities<br></em></p>
 												</div>

@@ -79,7 +79,7 @@
 
 								<!-- logo -->
 								<div id="logo" class="logo">
-									<a href="index.html"><img id="logo_img" src="../../assets/imagesfrom/logo-y1.png" alt="The Project"></a>
+									<a href="/welcome/index"><img id="logo_img" src="../../assets/imagesfrom/logo-y1.png" alt="The Project"></a>
 								</div>
 							</div>
 						</div>

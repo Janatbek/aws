@@ -59,7 +59,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #333333;
+  color: #3697d9;
   line-height: 1.2;
 }
 h1 a,
@@ -221,6 +221,7 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+  margin:auto;
 }
 blockquote {
   border-left: none;
@@ -5204,6 +5205,7 @@ header.full-width .animated.main-navigation .dropdown-menu .open .dropdown-menu.
     float: left !important;
   }
   body:not(.fixed-header-on) .header:not(.dark) .navbar-default .navbar-nav > li > a {
+    color: white;
     border-top: 1px solid transparent;
   }
   body:not(.fixed-header-on) .header:not(.dark) .main-navigation .navbar-nav > .open > a,
