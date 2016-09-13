@@ -601,7 +601,7 @@ data-endspeed="600"><a href="#" class="btn btn-dark btn-default btn-animated">Le
 	<div class="row grid-space-10">
 		<div class="col-sm-4">
 			<div class="team-member image-box style-2 dark-bg text-center">
-				<img src="../../assets/imagesfrom/natalia.jpg" alt="NATALIA GERACHENKO" width="100%">
+				<img id="headshots_in_main_page" src="../../assets/imagesfrom/natalia.jpg" alt="NATALIA GERACHENKO" width="100%">
 				<div class="body">
 					<h3 class="title">NATALIA GERACHENKO</h3>
 					<small>CEO</small>
@@ -613,7 +613,7 @@ data-endspeed="600"><a href="#" class="btn btn-dark btn-default btn-animated">Le
 		</div>
 		<div class="col-sm-4">
 			<div class="team-member image-box style-2 dark-bg text-center">
-				<img src="../../assets/imagesfrom/samantha.jpg" alt="SAMANTHA RICHARDS" width="100%">
+				<img id="headshots_in_main_page" src="../../assets/imagesfrom/samantha.jpg" alt="SAMANTHA RICHARDS" width="100%">
 				<div class="body">
 					<h3 class="margin-clear">SAMANTHA RICHARDS</h3>
 					<small>CTO</small>
@@ -626,7 +626,7 @@ data-endspeed="600"><a href="#" class="btn btn-dark btn-default btn-animated">Le
 		</div>
 		<div class="col-sm-4">
 			<div class="team-member image-box style-2 dark-bg text-center">
-				<img src="../../assets/imagesfrom/natalia2.jpg" alt="Natalia Imeda" width="100%">
+				<img id="headshots_in_main_page" src="../../assets/imagesfrom/natalia2.jpg" alt="Natalia Imeda" width="100%">
 				<div class="body">
 					<h3 class="margin-clear"> NATALIA IMEDA</h3>
 					<small>Project Manager</small>
@@ -643,7 +643,7 @@ data-endspeed="600"><a href="#" class="btn btn-dark btn-default btn-animated">Le
 
 		<div class="col-sm-4">
 			<div class="team-member image-box style-2 dark-bg text-center">
-				<img src="../../assets/imagesfrom/mena.jpg"width="100%">
+				<img id="headshots_in_main_page" src="../../assets/imagesfrom/mena.jpg"width="100%">
 				<div class="body">
 					<h3 class="title">MENA TANYA</h3>
 					<small></small>
@@ -655,7 +655,7 @@ data-endspeed="600"><a href="#" class="btn btn-dark btn-default btn-animated">Le
 		</div>
 		<div class="col-sm-4">
 			<div class="team-member image-box style-2 dark-bg text-center">
-				<img src="../../assets/imagesfrom/olga.jpg" alt="olga" width="100%" id="olga">
+				<img id="headshots_in_main_page" src="../../assets/imagesfrom/olga.jpg" alt="olga" width="100%">
 				<div class="body">
 					<h3 class="title">OLGA GONCHARUK</h3>
 					<small></small>
