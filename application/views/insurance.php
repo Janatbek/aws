@@ -119,7 +119,7 @@
 													<li><a href="/welcome/service">Services</a></li>
 													<li><a href="/welcome/about_us">About Us</a></li>
 													<li><a href="/welcome/insurance">Insurance Coverage</a></li>
-													<li><a href="/welcome/insurance">F.A.Q</a></li>
+													<li><a href="/welcome/faq">F.A.Q</a></li>
 												</ul>
 												<!-- main-menu end -->
 
@@ -159,7 +159,7 @@
 							<div class="separator-2"></div>
 							<h4>We are in–network providers for the following insurance:</h4>
 							<div class="row">
-								<div class="col-md-6">
+								<div class="col-md-6 col-sm-">
 									<div class="col-md-4">
 										<ul class="list-icons">
 											<li><i class="icon-check-1"></i>AETNA</li>
@@ -178,7 +178,7 @@
 										</ul>
 									</div>
 									<div class="col-md-8">
-										<ul>
+										<ul class="list-icons">
 											<li><i class="icon-check-1"></i>UMR</li>
 											<li><i class="icon-check-1"></i>Cigna OA, PPO</li>
 											<li><i class="icon-check-1"></i>PHCS(Multi Plan</li>
@@ -193,14 +193,12 @@
 											<li><i class="icon-check-1"></i>GreatWest-Cigna(GWH-Cigna)</li>
 										</ul>
 										<h4>We are now accepting:</h4>
-										<ul>
+										<ul class="list-icons">
 											<li><i class="icon-check-1"></i>Employer Health Programs (EHP)</li>
 											<li><i class="icon-check-1"></i>Priority Partners MCO (PPMCO)</li>
 											<li><i class="icon-check-1"></i>US Family Health Plan (USFHP)</li>
 										</ul>
 									</div>
-
-
 								</div>
 								<div class="col-md-6">
 									<img src="../../assets/imagesfrom/healthinurance2.jpg" alt="">
@@ -234,7 +232,7 @@
 													<li><i class="fa fa-map-marker pr-10 text-default"></i>17B Firstfield Rd., Ste. 105 <br>
 														Gaithersburg, MD 20878</li>
 														<li><i class="fa fa-phone pr-10 text-default"></i>+1 301 990 1449</li>
-														<li><a href="mailto:info@theproject.com"><i class="fa fa-envelope-o pr-10"></i>nfo@ptpro.comcastbiz.net</a></li>
+														<li><a href="mailto:info@ptpro.comcastbiz.net"><i class="fa fa-envelope-o pr-10"></i>info@ptpro.comcastbiz.net</a></li>
 													</ul>
 												</div>
 												<div class="col-md-6">
@@ -318,7 +316,7 @@
 									<div id="header-top-second"  class="clearfix text-right">
 										<ul class="list-inline">
 											<li><i class="fa fa-phone pr-5 pl-10"></i> +1 301 990 1449</li>
-											<li><i class="fa fa-envelope-o pr-5 pl-10"></i>nfo@ptpro.comcastbiz.net </li>
+											<li><i class="fa fa-envelope-o pr-5 pl-10"></i>info@ptpro.comcastbiz.net </li>
 										</ul>
 									</div>
 									<!-- header-top-second end -->

@@ -76,16 +76,16 @@
 
 				<div class="container">
 					<div class="row">
-						<div class="col-md-2">
+						<div class="col-md-1">
 							<div class="header-left clearfix">
 
 								<!-- logo -->
-								<div id="logo" class="logo">
-									<a href="/welcome/index"><img id="logo_img" src="../../assets/imagesfrom/logo-y1.png" alt="The Project"></a>
+								<div id="logo">
+									<a href="/welcome/index"><img src="../../assets/imagesfrom/logo-y1.png" alt="The Project"></a>
 								</div>
 							</div>
 						</div>
-						<div class="col-md-10">
+						<div class="col-md-11">
 
 							<!-- header-right start -->
 							<!-- ================ -->
@@ -689,7 +689,7 @@ data-endspeed="600"><a href="#" class="btn btn-dark btn-default btn-animated">Le
 										<li><i class="fa fa-map-marker pr-10 text-default"></i>17B Firstfield Rd., Ste. 105 <br>
 											Gaithersburg, MD 20878</li>
 											<li><i class="fa fa-phone pr-10 text-default"></i>+1 301 990 1449</li>
-											<li><a href="mailto:info@theproject.com"><i class="fa fa-envelope-o pr-10"></i>nfo@ptpro.comcastbiz.net</a></li>
+											<li><a href="mailto:info@ptpro.comcastbiz.net"><i class="fa fa-envelope-o pr-10"></i>nfo@ptpro.comcastbiz.net</a></li>
 										</ul>
 									</div>
 									<div class="col-md-6">
@@ -773,7 +773,7 @@ data-endspeed="600"><a href="#" class="btn btn-dark btn-default btn-animated">Le
 						<div id="header-top-second"  class="clearfix text-right">
 							<ul class="list-inline">
 								<li><i class="fa fa-phone pr-5 pl-10"></i> +1 301 990 1449</li>
-								<li><i class="fa fa-envelope-o pr-5 pl-10"></i>nfo@ptpro.comcastbiz.net </li>
+								<li><i class="fa fa-envelope-o pr-5 pl-10"></i>info@ptpro.comcastbiz.net </li>
 							</ul>
 						</div>
 						<!-- header-top-second end -->

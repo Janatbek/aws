@@ -59,7 +59,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #3697d9;
+  color: #333333;
   line-height: 1.2;
 }
 h1 a,
@@ -221,7 +221,6 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
-  margin:auto;
 }
 blockquote {
   border-left: none;
@@ -4128,7 +4127,7 @@ fieldset[disabled] .form-control {
   -o-transition: all ease-in-out 0.25s;
   transition: all ease-in-out 0.25s;
   height: 0;
-  color: #ffffff;..
+  color: #ffffff;
   -webkit-backface-visibility: hidden;
   -webkit-transform: translateZ(0) scale(1, 1);
 }
@@ -5205,7 +5204,6 @@ header.full-width .animated.main-navigation .dropdown-menu .open .dropdown-menu.
     float: left !important;
   }
   body:not(.fixed-header-on) .header:not(.dark) .navbar-default .navbar-nav > li > a {
-    color: white;
     border-top: 1px solid transparent;
   }
   body:not(.fixed-header-on) .header:not(.dark) .main-navigation .navbar-nav > .open > a,
@@ -5244,7 +5242,7 @@ header.full-width .animated.main-navigation .dropdown-menu .open .dropdown-menu.
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: #0c9ec7;
+    color: red;
     background-color: transparent;
   }
   /* first level item */

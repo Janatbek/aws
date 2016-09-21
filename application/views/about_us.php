@@ -6,7 +6,7 @@
 
 <head>
 	<meta charset="utf-8">
-	<title>Conditions we treat</title>
+	<title>About Us</title>
 	<meta name="description" content="The Project a Bootstrap-based, Responsive HTML5 Template">
 	<meta name="author" content="htmlcoder.me">
 
@@ -119,6 +119,7 @@
 													<li><a href="/welcome/service">Services</a></li>
 													<li><a href="/welcome/about_us">About Us</a></li>
 													<li><a href="/welcome/insurance">Insurance Coverage</a></li>
+													<li><a href="/welcome/insurance">F.A.Q</a></li>
 												</ul>
 												<!-- main-menu end -->
 
@@ -444,7 +445,7 @@
 													<li><i class="fa fa-map-marker pr-10 text-default"></i>17B Firstfield Rd., Ste. 105 <br>
 														Gaithersburg, MD 20878</li>
 														<li><i class="fa fa-phone pr-10 text-default"></i>+1 301 990 1449</li>
-														<li><a href="mailto:info@theproject.com"><i class="fa fa-envelope-o pr-10"></i>nfo@ptpro.comcastbiz.net</a></li>
+														<li><a href="mailto:info@ptpro.comcastbiz.net"><i class="fa fa-envelope-o pr-10"></i>nfo@ptpro.comcastbiz.net</a></li>
 													</ul>
 												</div>
 												<div class="col-md-6">
@@ -528,7 +529,7 @@
 									<div id="header-top-second"  class="clearfix text-right">
 										<ul class="list-inline">
 											<li><i class="fa fa-phone pr-5 pl-10"></i> +1 301 990 1449</li>
-											<li><i class="fa fa-envelope-o pr-5 pl-10"></i>nfo@ptpro.comcastbiz.net </li>
+											<li><i class="fa fa-envelope-o pr-5 pl-10"></i>info@ptpro.comcastbiz.net </li>
 										</ul>
 									</div>
 									<!-- header-top-second end -->

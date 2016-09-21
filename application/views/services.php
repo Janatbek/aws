@@ -353,7 +353,7 @@
 									<div id="header-top-second"  class="clearfix text-right">
 										<ul class="list-inline">
 											<li><i class="fa fa-phone pr-5 pl-10"></i> +1 301 990 1449</li>
-											<li><i class="fa fa-envelope-o pr-5 pl-10"></i>nfo@ptpro.comcastbiz.net </li>
+											<li><i class="fa fa-envelope-o pr-5 pl-10"></i>info@ptpro.comcastbiz.net </li>
 										</ul>
 									</div>
 									<!-- header-top-second end -->
